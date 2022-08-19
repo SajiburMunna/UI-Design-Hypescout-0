@@ -70,6 +70,14 @@ const Navbar = () => {
             <span className='text-[#959CB6] text-[12px] ml-[21px] '>Hi,Sojib</span>
             <img className='ml-2' src={user} alt="" />
 
+          <div className='xl:hidden lg:hidden md:hidden sm:hidden block ml-2'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#637381" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+</svg>
+
+            </div>
+
+
             </div>
 
          
