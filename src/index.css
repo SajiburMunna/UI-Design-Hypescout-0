@@ -10,9 +10,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.ReactModal__Content.ReactModal__Content--after-open{
+  background-color: rgba(240, 248, 255, 0) !important;
+  border: none !important;
+}
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open{
+  background-color: rgba(29, 29, 31, 0.8) !important;
+
 }

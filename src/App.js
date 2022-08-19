@@ -1,10 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+ 
+import Footer from './components/Ui/Footer';
+import Layout from './components/Ui/Layout';
+import Navbar from './components/Ui/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <div className='text-purple'>Hello world</div>
+    <div  >
+      <Navbar></Navbar>
+      <Layout></Layout>
+      <Footer></Footer>
+     
     </div>
   );
 }
