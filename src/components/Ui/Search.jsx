@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Modal from 'react-modal';
+import Slider from './Slider';
+import Slider2 from './Slider';
 
 
 const Search = () => {
@@ -131,6 +133,8 @@ const Search = () => {
                   <option value="DE">Germany</option>
                 </select>
               </div>
+
+               <Slider2></Slider2>
 
               <div>
 
