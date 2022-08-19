@@ -17,7 +17,7 @@ const Navbar = () => {
     <div>
        <img src={logo} alt="" />
     </div>
-    <div style={{ }} className='flex justify-around items-center '>
+    <div  className='flex justify-around items-center hidden xl:block lg:block md:block sm:block'>
         <span style={{fontSize:"16px",backgroundColor:"#202124",padding:'10px',color:'white',borderRadius:"4px"}} className='ml-2 '>Dashboard</span>
         <span style={{color:"#637381"}} className='ml-2'>Campaign</span>
         <span style={{color:"#637381"}} className='ml-2'>Hypesocial</span>
